@@ -1553,3 +1553,31 @@ nav.slides-nav__nav {
 .buttons.new-btn {
   gap: 50px;
 }
+
+/* 
+*TESTE PAGE_01
+*/
+.content01 {
+  overflow: hidden;
+  padding-top: 1em;
+  text-align: justify;
+}
+
+.inner-container1 {
+  display: flex;
+  overflow-wrap: anywhere;
+}
+
+@media only screen and (max-width: 780px) {
+  .inner-container1 {
+    display: flex;
+    overflow-wrap: anywhere;
+    align-content: center;
+    flex-direction: column;
+  }
+  .content-text1 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
